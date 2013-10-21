@@ -392,9 +392,11 @@ pt. ca latimea blocului superfih suprascrie contextual links-urile peste second 
     padding-right: 5px;
     /* LTR */
     padding-bottom: 30px;
-    width: 230px; }
+    /*width: 230px;*/
+	width: 170px; }
     .view-collection-taxonomy-term .view-content .item-list .products-per-collection li.views-row:nth-child(4n+5) {
-      clear: left;
+      /*zzz cest clear left facea sa mearga pe 2 coloane sau 4, nu si pe 3 :
+	  clear: left;*/
       /* LTR */
       float: left;
       /* LTR */ }
