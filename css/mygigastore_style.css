@@ -55,7 +55,17 @@ body.front /*zzz: */ {
   /*background:  #ebcc96 url("../images/body-home-bg.png") repeat-x;*/ 
 }
 #page /*zzz: */{
-	background: url("../images/denim-bg.jpg") repeat;
+	/*background: url("../images/denim-bg.jpg") repeat;*/
+	background: url(../images/urban_bg3.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 100%;
+	overflow: hidden;
+	width: 100%;
 }
 .front #page /*zzz: */{
 /*  background: url("../images/home-header.png") no-repeat 50% 0,
