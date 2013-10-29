@@ -1,3 +1,6 @@
+<?php /*dpm();
+debug($node);
+dpm($node); */?>
 <article<?php print $attributes; ?>>
   <?php print $user_picture; ?>
   <?php print render($title_prefix); ?>
@@ -10,8 +13,9 @@
   <?php if ($display_submitted): ?>
   <footer class="submitted"><?php print $date; ?> -- <?php print $name; ?></footer>
   <?php endif; ?>
-  <div class="container-24 grid-14 prefix-1 clearfix">
+  <div class="container-24 grid-14 prefix-1 clearfix">zzzzzrrr
     <?php print render($content['product:field_images']); ?>
+    <?php print render($content['field_images']); ?>
   </div>
   <div class="container-24 grid-8 prefix-1">
     <div<?php print $content_attributes; ?>>
